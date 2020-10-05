@@ -14,26 +14,19 @@ const CounterApp = ( { value=10 } ) => {
     };
 
     const handleReset = (e) => {
-        // 2 maneras de manejar el conrador
         setCounter(value);
-        //setCounter( (c) => c + 1 );
     };
 
     const handleSubstract = (e) => {
-        // 2 maneras de manejar el conrador
         setCounter(counter - 1);
-        //setCounter( (c) => c + 1 );
     };
 
-
+/* 
     const handle = ( value ) => {
-        // 2 maneras de manejar el conrador
         console.log('value', value);
         setCounter(counter - 1);
-        //setCounter( (c) => c + 1 );
     };
-
-    
+ */    
 
 
     
